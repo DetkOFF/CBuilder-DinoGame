@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.412,Z:\CPP\2022.12.19\Animation Base\Unit1.cpp=C:\Users\DziatkouM\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.486,=F:\проекты\Dino animation\Animation Base\AnimatedSprite.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.605,=C:\Users\DziatkouM\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.412,Z:\CPP\2022.12.19\Animation Base\Unit1.h=C:\Users\DziatkouM\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.412,Z:\CPP\2022.12.19\Animation Base\Unit1.dfm=C:\Users\DziatkouM\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.334,Z:\CPP\2022.12.19\Animation Base\Project1.cbproj=C:\Users\DziatkouM\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.764,=C:\Users\DziatkouM\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.428,Z:\CPP\2022.12.19\Animation Base\Project1PCH1.h=C:\Users\DziatkouM\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.474,=F:\проекты\Dino animation\Animation Base\AnimatedSprite.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

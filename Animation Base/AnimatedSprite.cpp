@@ -1,0 +1,42 @@
+#include "AnimatedSprite.h"
+
+AnimatedSprite::AnimatedSprite(){}
+AnimatedSprite::~AnimatedSprite(){}
+
+
+
+AnimatedSprite::AnimatedSprite(Graphics::TBitmap *_sprite, int _k)
+{
+    sprite_bmp = _sprite;
+    sprite_bmp -> Transparent = true;
+    k = _k;
+    w = sprite_bmp -> Width / k;
+	h = sprite_bmp -> Height;
+    //zeroTRect = Bounds(0, 0, w, h);
+}
+
+
+void __fastcall AnimatedSprite::MoveAndChangeSprite(int new_x, int new_y, int number)
+{
+
+}
+TRect  __fastcall AnimatedSprite::ChangeSpriteAnimation(int number)
+{
+	int local_x = w*number;
+
+   	TRect_sprite = Bounds(local_x, 0, w, h);
+    return TRect_sprite;
+
+   	/*bg_part_under_sprite_bmp -> Canvas -> CopyRect(TRect_bg_part_under_sprite, sprite_bmp -> Canvas, TRect_sprite);
+   	Image1 -> Canvas -> Draw(0, 0, bg_part_under_sprite_bmp);   */
+}
+/*Graphics::TBitmap __fastcall AnimatedSprite::GetShotBitmap(int number)
+{
+    int local_x = w*number;
+
+   	TRect_sprite = Bounds(local_x, 0, w, h);
+
+    temp_bmp -> Canvas -> CopyRect(zeroTRect, sprite_bmp -> Canvas, TRect_sprite);
+    temp_bmp -> Transparent = true;
+    return temp_bmp;
+} */

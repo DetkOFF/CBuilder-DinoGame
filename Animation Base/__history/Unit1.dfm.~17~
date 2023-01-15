@@ -1,0 +1,55 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Animation Base'
+  ClientHeight = 600
+  ClientWidth = 1099
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image1: TImage
+    Left = 0
+    Top = -8
+    Width = 500
+    Height = 400
+    OnClick = Image1Click
+  end
+  object Image2: TImage
+    Left = 776
+    Top = 32
+    Width = 297
+    Height = 217
+  end
+  object Image3: TImage
+    Left = 794
+    Top = 375
+    Width = 297
+    Height = 217
+  end
+  object Timer1: TTimer
+    Interval = 100
+    OnTimer = Timer1Timer
+    Left = 296
+    Top = 304
+  end
+  object JumpTimer: TTimer
+    Enabled = False
+    Interval = 1
+    OnTimer = JumpTimerTimer
+    Left = 344
+    Top = 304
+  end
+  object JumpEndTimer: TTimer
+    Enabled = False
+    Interval = 2000
+    Left = 400
+    Top = 304
+  end
+end

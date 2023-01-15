@@ -1,0 +1,65 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Animation Base'
+  ClientHeight = 433
+  ClientWidth = 508
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image1: TImage
+    Left = 0
+    Top = -8
+    Width = 500
+    Height = 400
+    OnClick = Image1Click
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 398
+    Width = 75
+    Height = 25
+    Caption = 'Restart'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object CheckBox1: TCheckBox
+    Left = 89
+    Top = 402
+    Width = 97
+    Height = 17
+    Caption = 'AutoJump'
+    TabOrder = 1
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 100
+    Left = 296
+    Top = 304
+  end
+  object JumpTimer: TTimer
+    Enabled = False
+    Interval = 1
+    Left = 344
+    Top = 304
+  end
+  object CactusTimer: TTimer
+    Enabled = False
+    Interval = 5
+    Left = 400
+    Top = 304
+  end
+  object SceneTimer: TTimer
+    Interval = 1
+    OnTimer = SceneTimerTimer
+    Left = 456
+    Top = 304
+  end
+end

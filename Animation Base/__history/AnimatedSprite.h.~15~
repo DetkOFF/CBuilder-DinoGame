@@ -1,0 +1,29 @@
+#ifndef ANIMATEDSPRITE_H
+#define ANIMATEDSPRITE_H
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+
+
+class AnimatedSprite
+{
+    public:
+        __fastcall AnimatedSprite();
+        __fastcall AnimatedSprite(Graphics::TBitmap *_sprite, int _k);
+        virtual ~AnimatedSprite();
+        Graphics::TBitmap __fastcall GetSpriteFromSpriteSheet(int number);
+        Graphics::TBitmap __fastcall ChangeSpriteAnimation(int number);
+        void __fastcall MoveAndChangeSprite(int new_x, int new_y, int number);
+        int k, w, h;
+    protected:
+
+    private:
+
+        Graphics::TBitmap *sprite_bmp = new Graphics::TBitmap();
+        TRect TRect_sprite;
+
+
+};
+
+#endif // ANIMATEDSPRITE_H

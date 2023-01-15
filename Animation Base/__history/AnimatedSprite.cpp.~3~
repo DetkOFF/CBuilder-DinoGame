@@ -1,0 +1,15 @@
+#include "AnimatedSprite.h"
+
+AnimatedSprite::AnimatedSprite()
+{
+    //ctor
+}
+
+AnimatedSprite::~AnimatedSprite()
+{
+    //dtor
+}
+void __fastcall AnimatedSprite::MoveAndChangeSprite(int new_x, int new_y, int number)
+{
+
+}
